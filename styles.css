@@ -105,3 +105,17 @@ footer i {
     text-align: center;
   }
 }
+
+@media (max-width: 576px) { 
+  .intro {
+    color: snow;
+    background-color: rgba(31, 70, 143, 0.452);
+    border-radius: 45%;
+  }
+}
+
+@media (min-width: 992px) {
+  .intro {
+    color: #000;
+  }
+}
