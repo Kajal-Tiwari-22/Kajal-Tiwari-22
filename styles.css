@@ -1,0 +1,107 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  /* Base styles */
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+   
+  }
+
+  .heading {
+    color: #4CAF50;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Comic Sans MS, Comic Sans, sans-serif;
+    margin: 1% 19% 0% 4%;
+  }
+  @media (max-width: 28.75em) {
+    .heading {
+      font-size: 25px;
+    }
+    }
+  .header{
+    padding: 128px 16px;
+    margin: auto;
+  }
+  .resume-button{
+    background-color:tomato;
+  border-radius: 100px;
+  padding: 1%;
+  
+  }
+  .resume-button:hover{
+    color:#000!important;
+    background-color: rgb(89, 215, 202)!important;
+    cursor: pointer;
+    }
+  .main-btn .btn-text {
+    padding: 0 2rem;
+  }
+  .jumbo {
+    font-size:64px!important;
+    margin-left: 59%;
+}
+  @media only screen and (max-width: 768px) {
+    .jumbo {
+      color: rgb(218, 225, 226);
+      font-size:34px!important;
+      margin: auto;
+      background-color: rgba(23, 23, 26, 0.427);
+    border-radius: 30%;
+    -webkit-border-radius: 30%;
+    -moz-border-radius: 30%;
+    -ms-border-radius: 30%;
+    -o-border-radius: 30%;
+  }
+}
+
+.contact{
+  background-image: url('https://i.giphy.com/media/Q5pH4UmOiQciITstXU/giphy.webp');
+   background-repeat: no-repeat;
+   background-size: 30% 90%;
+   margin-top: 4%;
+}
+.contact-info {
+  padding: 3%;
+}
+.c-icon {
+  font-size: 25px;
+  margin-right: 16px;
+}
+.xxlarge{
+  font-size:36px!important
+}
+.loc-img {
+  background-image: url('lkno.jpeg');
+   background-repeat: no-repeat;
+   object-fit: cover;
+   border-radius: 10px;
+   max-width: 600px;
+   height: 500px;
+   min-width: 300px;
+   min-height: 250px;
+   margin: 45px 15px 0 15px;
+}
+
+
+/* Footer */
+footer {
+  font-weight: 300;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem;
+  background: rgb(162, 215, 221);
+}
+
+footer i {
+  vertical-align: middle;
+}
+
+@media (max-width: 28.75em) {
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+}
